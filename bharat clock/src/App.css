@@ -1,0 +1,317 @@
+/* filepath: c:\Users\subha\OneDrive\Desktop\PROGRAMMING\react_lession\2nd react comp\react project's\bharat clock\src\components\navbar.css */
+.about-container {
+  padding: 2rem;
+  background: #f7f8fa;
+  min-height: 80vh;
+}
+
+.about-container h1 {
+  color: #4e54c8;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-container p {
+  color: #333;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-highlights {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem;
+  width: 320px;
+}
+
+.about-card h2 {
+  color: #4e54c8;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-card ul {
+  list-style: disc inside;
+  color: #333;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #4e54c8;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+
+.deals-container {
+  padding: 2rem;
+  background: #f7f8fa;
+  min-height: 80vh;
+}
+
+.deals-container h1 {
+  text-align: center;
+  color: #4e54c8;
+  margin-bottom: 2rem;
+}
+
+.deals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.deal-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem;
+  width: 270px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deal-tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #ffd700;
+  color: #4e54c8;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.deal-card h2 {
+  margin: 1.5rem 0 0.5rem 0;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.deal-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.deal-prices {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.old-price {
+  color: #888;
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+
+.new-price {
+  color: #4e54c8;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.grab-btn {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.grab-btn:hover {
+  background: linear-gradient(90deg, #8f94fb, #4e54c8);
+}
+
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  padding: 0.8rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.navbar-logo a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.cart-icon, .profile-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cart-icon:hover, .profile-icon:hover {
+  color: #ffd700;
+}.shop-container {
+  padding: 2rem;
+  background: #f7f8fa;
+  min-height: 80vh;
+}
+.categories {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem 2rem;
+  width: 260px;
+}
+.category-card h2 {
+  color: #4e54c8;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.add-btn {
+  background: #4e54c8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-btn:hover {
+  background: #8f94fb;
+}
+
+.home-container {
+  padding: 2rem;
+  background: #f7f8fa;
+  min-height: 80vh;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #4e54c8;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.shop-now-btn {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.shop-now-btn:hover {
+  background: linear-gradient(90deg, #8f94fb, #4e54c8);
+}
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  width: 220px;
+}
+
+.feature-card span {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  color: #4e54c8;
+  margin-bottom: 0.5rem;
+}
+.buttons{
+  background: #4e54c8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  float: right; ;
+}

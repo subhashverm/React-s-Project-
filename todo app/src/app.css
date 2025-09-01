@@ -1,0 +1,22 @@
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+}
+.todo-item{
+text-align: left;
+}
+.apni-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.btn
+{
+    min-width: 80px;
+}
